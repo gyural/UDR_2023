@@ -1,0 +1,82 @@
+body{
+  /*  */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free_photos/background.png');
+}
+.container{
+  width: 390px;
+  background-color: #ff9d73;
+  height: 100%;
+}
+.photos{
+  margin-top: 30px;
+}
+.photo-frame{
+  background-color: #fff;
+  margin: 15px 20px;
+  height: 200px;
+  background-size: cover;
+  position: relative;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.f-title{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 900px;
+}
+.f-date{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500px;
+}
+#image1{
+  background-image: url('./img1.png');
+}
+#image2{
+  background-image: url('./img2.png');
+}
+#image3{
+  background-image: url('./img3.png');
+}
+#image4{
+  
+}
+#image4 iframe{
+  width: 100%;
+  height: 100%;
+}
+
+.photo_description{
+  color: white;
+  background-color: black;
+
+  width: fit-content;
+  padding: 0 20px;
+  margin-bottom: 10px;
+
+  border-radius: 10px;
+  position: absolute;
+  bottom:0;
+  
+  transform: translate(-50%);
+  left: 50%;
+  
+}
+
+.showText{
+  opacity: 0;
+}
+
+.hideText{
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}
+
