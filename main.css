@@ -258,7 +258,7 @@ ul.icons li:last-child {
 }
 
 #header .avatar {
-  border-radius: 100%;
+  border-radius: 50%;
   display: inline-block;
   margin: 0 0 2em;
   padding: .5em;
@@ -269,7 +269,8 @@ ul.icons li:last-child {
 #header .avatar img {
   border-radius: 100%;
   display: block;
-  width: 10em
+  height: 11em;
+  width: 11em
 }
 
 #footer {
