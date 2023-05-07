@@ -272,7 +272,23 @@ ul.icons li:last-child {
   height: 11em;
   width: 11em
 }
-
+#header ul.icons{
+  
+}
+#header ul.icons li{
+  display: inline-block;
+  border-radius: 100%;
+  /* border: 1px solid rgba(255,255,255,0.25); */
+  justify-content: center;
+}
+#header ul.icons li a{
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+  font-size: 2em;
+}
+#header ul.icons li .label{
+  display: none;
+}
 #footer {
   padding: 4em 0
 }
